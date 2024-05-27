@@ -17,3 +17,12 @@ This Hospital Facility Management System is a web application built with Flask a
    ```bash
    git clone https://github.com/blessingsMlundira/luke_international_facility_project.git
 
+
+   Set up MongoDB Atlas:
+
+Create a MongoDB Atlas account.
+Create a new cluster and database for the application.
+Obtain the connection string and update the MONGO_URI variable in the Flask application accordingly. Ensure that MongoDB Atlas is configured to accept connections from a live IP address to enable user login.
+then run the command "python main.py".... replace all current connection strings with your acccount connection strings to successully connect to the database
+
+
